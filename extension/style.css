@@ -1,5 +1,5 @@
 /* ============================================================
-   for vieech — dashboard styles
+   FOR VIEECH — dashboard styles
    Extracted directly from mockup.html — do not modify unless
    also updating the mockup. This is the approved design.
    ============================================================ */
@@ -76,12 +76,11 @@ header {
 }
 
 .header-product {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.14em;
   color: var(--ink);
   font-family: 'Fraunces', serif;
-  font-style: italic;
 }
 
 .header-creator {

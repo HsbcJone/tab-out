@@ -1,5 +1,5 @@
 /* ================================================================
-   for vieech — Dashboard (Chrome extension new tab)
+   FOR VIEECH — Dashboard (Chrome extension new tab)
 
    This file is the brain of the dashboard. Now that the dashboard
    IS the extension page (not inside an iframe), it can call
@@ -1198,7 +1198,7 @@ document.addEventListener('click', async (e) => {
       banner.style.opacity = '0';
       setTimeout(() => { banner.style.display = 'none'; banner.style.opacity = '1'; }, 400);
     }
-    showToast('Closed extra for vieech tabs');
+    showToast('Closed extra FOR VIEECH tabs');
     return;
   }
 
