@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Tab Out (mengxp)",
+  "name": "for vieech",
   "version": "1.0.0",
-  "description": "Personal build by mengxp — new tab dashboard: tabs grouped by domain, save for later, close with style.",
+  "description": "for vieech by mengxp — new tab dashboard: tabs grouped by domain, save for later, close with style.",
   "permissions": ["tabs", "activeTab", "storage"],
   "chrome_url_overrides": { "newtab": "index.html" },
   "background": { "service_worker": "background.js" },
   "action": {
-    "default_title": "Tab Out · mengxp",
+    "default_title": "for vieech · mengxp",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png"

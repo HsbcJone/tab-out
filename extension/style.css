@@ -1,5 +1,5 @@
 /* ============================================================
-   Tab Mission Control — Dashboard Styles
+   for vieech — dashboard styles
    Extracted directly from mockup.html — do not modify unless
    also updating the mockup. This is the approved design.
    ============================================================ */
@@ -76,11 +76,12 @@ header {
 }
 
 .header-product {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--accent-slate);
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  font-family: 'Fraunces', serif;
+  font-style: italic;
 }
 
 .header-creator {
