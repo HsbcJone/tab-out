@@ -1,5 +1,5 @@
 /* ============================================================
-   FOR VIEECH — dashboard styles
+   妈妈每天好心情 — dashboard styles（Zak ♥）
    Extracted directly from mockup.html — do not modify unless
    also updating the mockup. This is the approved design.
    ============================================================ */
@@ -24,7 +24,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', 'Noto Sans SC', system-ui, sans-serif;
   background: radial-gradient(1200px 800px at 10% -10%, rgba(79, 70, 229, 0.09), transparent 50%),
     radial-gradient(900px 600px at 100% 0%, rgba(13, 148, 136, 0.07), transparent 45%),
     var(--paper);
@@ -73,25 +73,28 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .header-product {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.02em;
   color: var(--ink);
-  font-family: 'Fraunces', serif;
+  font-family: 'Noto Sans SC', 'DM Sans', sans-serif;
+  line-height: 1.45;
+  max-width: min(100%, 26em);
 }
 
 .header-creator {
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--accent-rose);
   padding: 6px 14px;
   border-radius: 999px;
-  background: var(--card-bg);
-  border: 1px solid var(--warm-gray);
+  background: rgba(225, 29, 72, 0.06);
+  border: 1px solid rgba(225, 29, 72, 0.18);
   box-shadow: 0 1px 2px var(--shadow);
 }
 
@@ -603,7 +606,7 @@ header {
   transform: translateX(-50%) translateY(80px);
   background: var(--ink);
   color: var(--paper);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
   font-size: 13px;
   font-weight: 500;
   padding: 12px 24px;
@@ -670,8 +673,27 @@ footer {
   color: var(--muted);
 }
 
-.footer-credit span {
-  letter-spacing: 0.04em;
+.footer-credit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  text-align: right;
+  max-width: 22rem;
+}
+
+.footer-sweet {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.footer-by {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.03em;
 }
 
 .footer-credit strong {
